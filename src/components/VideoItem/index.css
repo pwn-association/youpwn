@@ -1,0 +1,26 @@
+.yp-video-item {
+  max-width: 100%;
+  min-width: 220px;
+}
+.yp-video-item button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.yp-video-item button:active {
+  opacity: .2;
+}
+.yp-video-item img {
+  max-width: 100%;
+}
+
+.yp-video-detail {
+
+}
+
+.yp-video-detail h1 {
+  color: #fff;
+  font-size: 1.5rem;
+}

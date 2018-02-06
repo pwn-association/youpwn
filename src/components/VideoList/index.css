@@ -1,0 +1,12 @@
+.yp-video-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 40vw;
+  margin-left: 3vw;
+}
+  .yp-video-list_item {
+    flex: 1;
+    box-sizing: border-box;
+  }
