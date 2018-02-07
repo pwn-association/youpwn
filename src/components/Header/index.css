@@ -1,10 +1,25 @@
 .yp-main-header {
-  padding: 4vh 1vw;
+  padding: 4vh 2%;
   background: #191919;
+  display: flex;
+  justify-content: space-between;
 }
 
 .yp-main-header_title {
-  text-align: center;
+  font-size: 1.2rem;
   color: #fff;
+  font-weight: bold;
+}
 
+.yp-main-header_back-button {
+  display: inline-block;
+  background: #888;
+  color: #fff;
+  font-size: .75em;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2;
+  padding: 0 10px;
+  border-radius: 4px;
+  transition: background-color 2s ease;
 }

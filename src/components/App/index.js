@@ -52,7 +52,9 @@ class App extends Component {
         }
 
         { !this.state.loaded &&
-          <span>loading...</span>
+          <section className="youpwn-app-main-content loading">
+            <span className="yp-loading-text">loading...</span>
+          </section>
         }
       </div>
     );

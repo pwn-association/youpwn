@@ -1,6 +1,6 @@
 # youpwn
 
-Il s'agit du dépôt du site regroupant les vidéos des interventions de l'asso poitevine PWN. Le projet se base sur create-react-app.
+Il s'agit du dépôt du site regroupant les vidéos des interventions de l'asso poitevine PWN. Le projet se base sur create-react-app et l'API Youtube Data v3
 
 # Lancer le projet
 
