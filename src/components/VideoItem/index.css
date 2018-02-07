@@ -1,7 +1,9 @@
 .yp-video-item {
   max-width: 100%;
-  min-width: 220px;
-  min-height: 260px;
+  min-width: 120px;
+  min-height: 150px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
 }
 .yp-video-item button {
   -webkit-appearance: none;
@@ -9,9 +11,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  font-family: "Monosten", sans-serif;
-  
-  
+  font-family: "Monosten", sans-serif;  
 }
 .yp-video-item button:active {
   opacity: .2;

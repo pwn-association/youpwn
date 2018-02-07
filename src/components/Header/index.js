@@ -20,7 +20,6 @@ export default class Header extends Component {
     clearInterval(this.state.backButtonBgColor);
   }
   interval() {
-    console.log(this.state.colorCount, this.state.colors.length, this.state.colorCount > this.state.colors.length);
     this.setState({
       ...this.state,
       colorCount: this.state.colorCount >= this.state.colors.length-1 ? 0:parseInt(this.state.colorCount)+1,

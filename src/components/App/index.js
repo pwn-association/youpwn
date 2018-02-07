@@ -26,11 +26,11 @@ class App extends Component {
     });
   }
   onVideoListClick(currentVideoId) {
-    console.info('Current video ID : ', currentVideoId);
     this.setState({
       ...this.state,
       currentVideoId
-    })
+    });
+    window.location.hash = currentVideoId;
   }
   getVideoDataFromId(id) {
     const result = this.state.data.filter(video => video.id === id);

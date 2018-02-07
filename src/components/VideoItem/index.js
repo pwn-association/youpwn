@@ -29,7 +29,7 @@ function DetailTemplate({video}) {
           {video.title}
         </h1>     
         <div className={`${block}_iframe`}>
-          <iframe width="100%" height="450" src={`//www.youtube.com/embed/${video.id}`} frameBorder="0" allowFullScreen></iframe>
+          <iframe width="100%" height="550" src={`//www.youtube.com/embed/${video.id}`} frameBorder="0" allowFullScreen></iframe>
         </div>
         <div className={`${block}_description`}>
           <p>
